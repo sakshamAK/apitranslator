@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
-
 body{
 	font-family: 'Noto Sans JP', sans-serif;
 	letter-spacing:2px;
@@ -25,7 +21,6 @@ header, #postHeader,#postHeader2 {
 header h1{	
 	font-family: 'Indie Flower', cursive;
 	margin-bottom:-30px;
-	font-size:50px;
 }
 	
 #postHeader,#postHeader2 {
