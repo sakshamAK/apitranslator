@@ -33,6 +33,7 @@ header h1{
 #selector {
 	padding:10px 20px;
 	font-size:20px;
+	min-width:360px;
 }
 	
 #postHeader2{
@@ -50,11 +51,12 @@ header h1{
 	height:200px;
 	padding:20px;
 	font-size:20px;
+	min-width:360px;
 }
 
 #translate-it {
-	padding:20px 40px;
-	font-size:30px;
+	padding:20px;
+	min-width:360px;
 	font-family: 'Indie Flower', cursive;
 	font-weight:bold;
 	cursor:pointer;
@@ -62,10 +64,18 @@ header h1{
 	background-color:#cc7722 ;
 }
 
+#translate-it h1 {
+	padding:0;
+	margin:0;
+}
+
 #output-text{
 	height:200px;
 	background-color:white;
 	padding:20px;
+	min-width:320px;
+	font-size:40px;
+	text-align:left;
 }
 	
 footer {

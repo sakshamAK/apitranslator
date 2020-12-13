@@ -41,7 +41,7 @@ window.onload=function() {
 		}
 		inputHere = inputTxt.value;
 		var urlName = url + inputHere;
-		fetch(url)
+		fetch(urlName)
 			.then(response => response.json())
 			.then(json => {
 				outputBox.innerText = json.contents.translated;
