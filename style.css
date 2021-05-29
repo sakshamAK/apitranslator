@@ -54,6 +54,7 @@ header h1{
 	height:200px;
 	padding:20px;
 	font-size:20px;
+	box-sizing: border-box;
 	/* min-width:360px; */
 }
 
@@ -79,6 +80,7 @@ header h1{
 	/* min-width:320px; */
 	font-size:40px;
 	text-align:left;
+	box-sizing: border-box;
 }
 	
 select, #input-txt, #translate-it, #postheader2 h2, #output-text {
