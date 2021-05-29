@@ -14,7 +14,7 @@ header, #postHeader,#postHeader2 {
 	background-color: #10B981;
 	color:#1F2937;
 	text-align:center;
-	padding:150px;
+	padding:160px;
 	font-family: 'Indie Flower', cursive;
 }
 	
@@ -33,14 +33,17 @@ header h1{
 #selector {
 	padding:10px 20px;
 	font-size:20px;
-	min-width:360px;
+	/* min-width:360px; */
 }
 	
 #postHeader2{
+	padding:30px 0 0 0;
 	background-color: #10B981;
 	color:#1F2937;
 	display:flex;
 	flex-direction:column;
+	align-items:center;
+	justify-content:center;
 }	
 	
 #postHeader2 *{
@@ -51,12 +54,12 @@ header h1{
 	height:200px;
 	padding:20px;
 	font-size:20px;
-	min-width:360px;
+	/* min-width:360px; */
 }
 
 #translate-it {
 	padding:20px;
-	min-width:360px;
+	/* min-width:360px; */
 	font-family: 'Indie Flower', cursive;
 	font-weight:bold;
 	cursor:pointer;
@@ -73,11 +76,15 @@ header h1{
 	height:200px;
 	background-color:white;
 	padding:20px;
-	min-width:320px;
+	/* min-width:320px; */
 	font-size:40px;
 	text-align:left;
 }
 	
+select, #input-txt, #translate-it, #postheader2 h2, #output-text {
+	width: 80vw;
+}
+
 footer {
 	text-align:center;
 }
@@ -85,8 +92,30 @@ footer {
 footer a {
 	color:#10B981;
 }
+
+@media screen and (max-width: 1000px) {
+	header, #postheader {
+		padding:160px 50px;
+	}
+	#postHeader2 {
+		padding:30px 50px 0 50px;
+	}
+}
 	
-	
+@media screen and (max-width: 500px) {
+	header, #postHeader {
+		padding: 150px 20px;
+	}
+	#translate-it {
+		padding: 0;
+		height: 60px;
+	}
+	#input-txt, #output-text {
+		box-sizing: border-box;
+		padding: 10px;
+		height: 200px;
+	}
+}
 	
 	
 	
